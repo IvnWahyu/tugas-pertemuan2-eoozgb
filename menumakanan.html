@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Menu Makanan</title>
+    <!-- Untuk Title di judul tab-->
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        /* background: #f0ebe3; */
+        background-image: url('https://images.pexels.com/photos/1633791/pexels-photo-1633791.jpeg?auto=compress&cs=tinysrgb&w=600');
+        background-size: cover;
+        background-repeat: no-repeat;
+
+      }
+      header {
+        /* background-color: #D2B48C; */
+        padding: 20px;
+        text-align: center;
+        color: white;
+        font-family: 'Sawarabi Mincho', serif;
+        font-size: 20px;
+      }
+      nav {
+        float: left;
+        width: 20%;
+        height: 340px;
+        /* background-color: #D2B48C; */
+        padding: 0px;
+        font-family: 'Sawarabi Mincho', serif;
+      }
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+      Nav ul li a {
+        display: block;
+        color: white;
+        padding: 8px 16px;
+        text-decoration: none;
+      }
+      nav ul li a.active {
+        background-color: black;
+        color: white;
+      }
+      nav ul li a:hover:not(.active) {
+        background-color: black;
+        color: white;
+      }
+      article {
+        float: left;
+        width:80%;
+        padding: 20px;
+        /* background-image: url('https://images.pexels.com/photos/1633791/pexels-photo-1633791.jpeg?auto=compress&cs=tinysrgb&w=600'); */
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: 'Noto Serif JP', serif;
+        color: white;
+        height:340px;
+
+      }
+      section::after {
+        clear: both;
+        display: table;
+        content: '';
+      } 
+      footer {
+        /* background-color: #D2B48C; */
+        padding: 25px;
+        text-align: center;
+        color: white;
+      }
+      .fl::first-letter{
+        font-size: xx-large;
+      }
+      /*
+    responsive layout
+    */
+      /* @media (max-width: 300px) {
+        nav,
+        article {
+          width: 100%;
+          height: auto;
+        }
+      } */
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Restoran Jepang Tradisional</h1>
+      <!-- Untuk Header -->
+    </header>
+    <section>
+      <nav>
+        <ul>
+          <li><a href="/beranda.html">Home</a></li>
+          <li><a class="active" href="/menumakanan.html">Menu Makanan</a></li>
+          <li><a href="/keranjang.html">Keranjang</a></li>
+          <li><a href="/pesanan.html">Pesanan</a></li>
+          <li><a href="/kontak.html">Kontak</a></li>
+        </ul>
+      </nav>
+      <article>
+        <h2>Menu Makanan </h2>
+        <h2 class="fl">Sushi</h2>
+        <p>
+          Nikmati kelezatan sushi segar kami, yang disajikan dengan potongan ikan berkualitas tinggi dan nasi yang lembut. Kami menyediakan berbagai pilihan sushi, mulai dari nigiri hingga sashimi.
+        </p>
+        <h2 class="fl">Teriyaki</h2>
+        <p>
+            Hidangan teriyaki kami adalah kombinasi sempurna dari daging atau ikan yang dimasak dengan saus teriyaki manis dan gurih. Rasakan paduan rasa yang menggoda ini.
+        </p>
+        <p>
+        
+        </p>
+
+      </article>
+    </section>
+    <footer>
+
+    </footer>
+  </body>
+</html>

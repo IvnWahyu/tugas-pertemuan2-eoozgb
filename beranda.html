@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Halaman Utama</title>
+    <!-- Untuk Title di judul tab-->
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        /* background: #f0ebe3; */
+        background-image: url('https://images.pexels.com/photos/1633791/pexels-photo-1633791.jpeg?auto=compress&cs=tinysrgb&w=600');
+        background-size: cover;
+        background-repeat: no-repeat;
+
+      }
+      header {
+        /* background-color: #D2B48C; */
+        padding: 20px;
+        text-align: center;
+        color: white;
+        font-family: 'Sawarabi Mincho', serif;
+        font-size: 20px;
+      }
+      nav {
+        float: left;
+        width: 20%;
+        height: 340px;
+        /* background-color: #D2B48C; */
+        padding: 0px;
+        font-family: 'Sawarabi Mincho', serif;
+      }
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+      Nav ul li a {
+        display: block;
+        color: white;
+        padding: 8px 16px;
+        text-decoration: none;
+      }
+      nav ul li a.active {
+        background-color: black;
+        color: white;
+      }
+      nav ul li a:hover:not(.active) {
+        background-color: black;
+        color: white;
+      }
+      article {
+        float: left;
+        width:80%;
+        padding: 20px;
+        /* background-image: url('https://images.pexels.com/photos/1633791/pexels-photo-1633791.jpeg?auto=compress&cs=tinysrgb&w=600'); */
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: 'Noto Serif JP', serif;
+        color: white;
+        height:340px;
+
+      }
+      section::after {
+        clear: both;
+        display: table;
+        content: '';
+      } 
+      footer {
+        /* background-color: #D2B48C; */
+        padding: 25px;
+        text-align: center;
+        color: white;
+      }
+      p::first-letter {
+        font-size: xx-large;
+      }
+      /*
+    responsive layout
+    */
+      /* @media (max-width: 300px) {
+        nav,
+        article {
+          width: 100%;
+          height: auto;
+        }
+      } */
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Restoran Jepang Tradisional</h1>
+      <!-- Untuk Header -->
+    </header>
+    <section>
+      <nav>
+        <ul>
+          <li><a class="active" href="/beranda.html">Home</a></li>
+          <li><a href="/menumakanan.html">Menu Makanan</a></li>
+          <li><a href="/keranjang.html">Keranjang</a></li>
+          <li><a href="/pesanan.html">Pesanan</a></li>
+          <li><a href="/kontak.html">Kontak</a></li>
+        </ul>
+      </nav>
+      <article>
+        <h2>Selamat Datang di Restoran Jepang Tradisional</h2>
+        <p>
+          Restoran Sakura Tradisional adalah tempat yang sempurna untuk merasakan kelezatan autentik masakan Jepang dalam suasana yang khas Jepang.
+        </p>
+        <p>
+          Didirikan lebih dari 30 tahun yang lalu, kami telah berkomitmen untuk menyajikan hidangan berkualitas tinggi dengan bahan-bahan segar dan teknik tradisional yang terjaga. Restoran kami adalah tempat yang sempurna untuk merayakan acara istimewa atau hanya menikmati makan malam santai bersama teman dan keluarga.
+        </p>
+
+      </article>
+    </section>
+    <footer>
+
+    </footer>
+  </body>
+</html>
